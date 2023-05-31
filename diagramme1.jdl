@@ -1,18 +1,15 @@
 entity Employe {
-  id Long,
   nom String,
   departement String,
   soldeConges Float
 }
 
 entity Gestionnaire {
-  id Long,
   nom String,
   departement String
 }
 
 entity DemandeConge {
-  id Long,
   typeConge String,
   periode Instant,
   raison String,
@@ -20,7 +17,6 @@ entity DemandeConge {
 }
 
 entity Conge {
-  id Long,
   periode Instant,
   raison String
 }
